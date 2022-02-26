@@ -79,6 +79,7 @@ module App
             "nodes" => nodes,
           }.to_json
         end
+        break
       end
       return nil if data.nil?
       return JSON.parse(data)
